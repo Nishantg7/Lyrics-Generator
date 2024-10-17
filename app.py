@@ -87,12 +87,9 @@ def generate_lyrics_endpoint():
     # Get lyrics using the provided inputs
     try:
         lyrics = get_lyrics(title, genre, language, description)
-        return jsonify(lyrics.dict()), 200
+        return jsonify(lyrics.model_dump()), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 400
 
 if __name__ == '__main__':
-    app.run(debug=True)
-
-
-
+    app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))

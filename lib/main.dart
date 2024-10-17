@@ -3,7 +3,6 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:flutter/services.dart';
 
-
 void main() {
   runApp(const LyricsGeneratorApp());
 }
@@ -64,7 +63,7 @@ class _LyricsFormState extends State<LyricsForm> {
 
     try {
       final response = await http.post(
-        Uri.parse('http://127.0.0.1:5000/generate_lyrics'),
+        Uri.parse('https://your-vercel-backend-url.vercel.app/generate_lyrics'),
         headers: <String, String>{
           'Content-Type': 'application/json',
         },
