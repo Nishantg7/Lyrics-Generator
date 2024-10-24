@@ -13,7 +13,7 @@ The Lyrics Generator is an innovative application powered by the LLama 3.1 model
 5. **Copy to Clipboard**: Easily copy generated lyrics for sharing or editing.
 
 # Screenshots
-<img src="https://i.imghippo.com/files/8PR941726442139.png"> <img src="https://i.imghippo.com/files/0Vcwe1726442113.png"> <img src="https://i.imghippo.com/files/2WICs1726442228.png">
+<img src="https://i.imghippo.com/files/Ntha9359u.png"> <img src="https://i.imghippo.com/files/vtKR3324wcE.png"> <img src="https://i.imghippo.com/files/EMOK6319VvM.png">
 
 # Tech Used
 ![Flutter](https://img.shields.io/badge/flutter-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![GROQ](https://img.shields.io/badge/GROQ-00BFFF?style=for-the-badge&logo=graphql&logoColor=white)
