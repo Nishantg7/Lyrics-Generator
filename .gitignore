@@ -2,3 +2,49 @@
 test.py
 requirements.txt
 .vercel
+# Flutter/Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+build/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Pods/
+android/.gradle/
+android/app/build/
+android/app/src/main/res/mipmap-*
+android/app/src/main/res/drawable-*
+android/app/src/main/res/values-*
+android/local.properties
+android/.idea/
+*.iml
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.env  # Exclude environment variable files
+instance/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Vercel specific
+.vercel/
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
